@@ -1,7 +1,7 @@
 ### golstatsd
 
 Statsd **log**ger written in Golang that reads the udp packets sent from a statsd client
-and write them to stdout, by default it listens to port 8125 on localhost.
+and write them to stdout, I created it to be able to see the metrics while doing development on my machine, by default it listens to port 8125 on localhost.
 
 to install it:
 

@@ -15,3 +15,6 @@ or if the client is sending the metrics to a different port:
 
 to write metrics to a file and run the process in the background:
 `golstatsd &> $LOG_FILE &`
+
+you can run it from inside a docker container:
+`docker run --network="host" shadi/statsd-logger`

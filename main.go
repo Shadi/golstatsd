@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	port := flag.Int("port", 8125, "Statsd ports")
+	port := flag.Int("port", 8125, "Port that statsd metrics are being sent to")
 
 	flag.Parse()
 

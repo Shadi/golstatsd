@@ -5,7 +5,7 @@ and write them to stdout, by default it listens to port 8125 on localhost.
 
 to install it:
 
-`go get go get github.com/shadi/golstatsd`
+`go get github.com/shadi/golstatsd`
 
 and run it using:
 `golstatsd`
